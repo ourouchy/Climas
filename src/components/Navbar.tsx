@@ -15,7 +15,6 @@ export default function Navbar() {
     { href: "/domestic", label: "Domestique" },
     { href: "/commercial", label: "Commercial" },
     { href: "/contact", label: "Contact" },
-    { href: "/photo-gallery", label: "Galerie" },
   ];
 
   const toggleMobileMenu = () => {
