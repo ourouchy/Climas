@@ -33,7 +33,6 @@ export default function PhotoAlbum({
 }: PhotoAlbumProps) {
   const [selectedCategory, setSelectedCategory] = useState<PhotoCategory | null>(null);
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-  const [loadedImages, setLoadedImages] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (isOpen && categories.length > 0) {
@@ -70,9 +69,6 @@ export default function PhotoAlbum({
     }
   };
 
-  const handleImageLoad = (src: string) => {
-    setLoadedImages(prev => new Set([...prev, src]));
-  };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-2">
@@ -105,7 +101,6 @@ export default function PhotoAlbum({
                   height={60}
                   className="object-cover h-16 w-24"
                   loading="lazy"
-                  onLoad={() => handleImageLoad(category.thumbnail)}
                 />
                 <span className="mt-2 text-sm text-gray-700">{category.name}</span>
               </div>
@@ -123,7 +118,6 @@ export default function PhotoAlbum({
                 fill
                 style={{ objectFit: "contain" }}
                 loading="lazy"
-                onLoad={() => handleImageLoad(selectedCategory.photos[currentPhotoIndex].src)}
               />
               {selectedCategory.photos.length > 1 && (
                 <>
@@ -176,7 +170,6 @@ export default function PhotoAlbum({
                     fill
                     className="object-cover"
                     loading="lazy"
-                    onLoad={() => handleImageLoad(photo.src)}
                   />
                 </div>
               ))}

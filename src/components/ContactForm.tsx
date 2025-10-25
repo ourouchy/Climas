@@ -208,7 +208,7 @@ export default function ContactForm() {
                 <div className="grid md:grid-cols-2 gap-4 mb-4">
                   <div>
                     <label className="block text-sm text-gray-600 mb-1">
-                      Nom de l'entreprise
+                      Nom de l&apos;entreprise
                     </label>
                     <input
                       type="text"

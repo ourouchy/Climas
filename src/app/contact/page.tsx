@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactForm from "@/components/ContactForm";
@@ -52,14 +51,14 @@ export default function Contact() {
 
                   <div>
                     <h4 className="font-semibold text-gray-800">Adresse</h4>
-                    <p className="text-gray-600">Clima'S Air Conditioning Ltd<br />Var, Toulon et sa région</p>
+                    <p className="text-gray-600">Clima&apos;S Air Conditioning Ltd<br />Var, Toulon et sa région</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white border border-gray-200 p-6">
                 <h3 className="text-xl font-semibold text-[#1e496f] mb-4">
-                  Horaires d'ouverture
+                  Horaires d&apos;ouverture
                 </h3>
                 <div className="space-y-2 text-gray-700">
                   <div className="flex justify-between">
@@ -119,13 +118,13 @@ export default function Contact() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localisation Clima'S Air Conditioning"
+              title="Localisation Clima&apos;S Air Conditioning"
             />
           </div>
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 mb-4">
-              <strong>Clima'S Air Conditioning Ltd</strong><br />
+              <strong>Clima&apos;S Air Conditioning Ltd</strong><br />
               Var, Toulon et sa région
             </p>
             <Button className="bg-[#1e496f] hover:bg-[#1e496f]/90 text-white px-6 py-2">
@@ -146,7 +145,7 @@ export default function Contact() {
             {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="text-2xl font-bold mb-4">
-                <span className="text-red-600">Clima'S</span>
+                <span className="text-red-600">Clima&apos;S</span>
                 <div className="text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
               </div>
             </div>
@@ -180,10 +179,10 @@ export default function Contact() {
           {/* Copyright */}
           <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-600">
             <p>
-              © Clima'S Air Conditioning Limited |
+              © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               <Link href="/cookie-policy" className="hover:text-[#1e496f] mx-1">Politique des cookies</Link> |
-              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d'utilisation</Link> |
+              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d&apos;utilisation</Link> |
               <Link href="/terms-conditions" className="hover:text-[#1e496f] mx-1">Termes et conditions</Link> |
               <Link href="/sitemap" className="hover:text-[#1e496f] mx-1">Plan du site</Link> |
               Site web par <a href="https://www.design-m.co.uk" className="hover:text-[#1e496f]">Design M</a>

@@ -13,7 +13,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <p className="text-[#49bce5] text-base sm:text-lg mb-4">Bienvenue chez Clima'S</p>
+              <p className="text-[#49bce5] text-base sm:text-lg mb-4">Bienvenue chez Clima&apos;S</p>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#1e496f] mb-6 lg:mb-8 leading-tight">
                 Installation et maintenance de climatisation
               </h1>
@@ -50,10 +50,10 @@ export default function Home() {
                 Votre spécialiste climatisation dans le Var
               </h2>
               <p className="text-gray-700 mb-4 lg:mb-6 leading-relaxed text-sm sm:text-base">
-                Que vous ayez besoin de climatisation sur votre lieu de travail ou à domicile dans le Var, laissez Clima'S vous conseiller sur la meilleure conception et sélection de produits. Nous effectuerons une étude de site gratuite de votre propriété et travaillerons rapidement et efficacement pour installer un système facile à gérer qui vous apportera tous les avantages d'une climatisation et d'un chauffage modernes et propres.
+                Que vous ayez besoin de climatisation sur votre lieu de travail ou à domicile dans le Var, laissez Clima&apos;S vous conseiller sur la meilleure conception et sélection de produits. Nous effectuerons une étude de site gratuite de votre propriété et travaillerons rapidement et efficacement pour installer un système facile à gérer qui vous apportera tous les avantages d&apos;une climatisation et d&apos;un chauffage modernes et propres.
               </p>
               <p className="text-gray-700 mb-6 lg:mb-8 leading-relaxed text-sm sm:text-base">
-                Avec plus de 20 ans d'expérience dans l'installation, l'entretien et la réparation de systèmes de climatisation dans le Var, Toulon et sa région, nous avons les compétences et les connaissances pour garantir une expérience sans stress à chaque fois.
+                Avec plus de 20 ans d&apos;expérience dans l&apos;installation, l&apos;entretien et la réparation de systèmes de climatisation dans le Var, Toulon et sa région, nous avons les compétences et les connaissances pour garantir une expérience sans stress à chaque fois.
               </p>
               <Link href="/contact">
                 <Button className="bg-[#1e496f] hover:bg-[#1e496f]/90 text-white px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-lg w-full sm:w-auto">
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
               <div className="order-3 lg:order-3">
                 <p className="text-white mb-3 lg:mb-4 text-base lg:text-lg">
-                  Climatisation et production d'eau chaude pour votre domicile.
+                  Climatisation et production d&apos;eau chaude pour votre domicile.
                 </p>
                 <p className="text-white mb-6 lg:mb-8 text-base lg:text-lg">
                   Une alternative très efficace aux produits de chauffage au gaz de ville et au fioul.
@@ -147,7 +147,7 @@ export default function Home() {
       <section className="py-8 sm:py-12 lg:py-16 bg-[#eff4f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#1e496f] text-center mb-8 lg:mb-12">
-            Pourquoi choisir Clima'S ?
+            Pourquoi choisir Clima&apos;S ?
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8 lg:mb-12">
@@ -169,7 +169,7 @@ export default function Home() {
             <div className="space-y-4 lg:space-y-6">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#49bce5] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700 text-sm sm:text-base">Accès au portail client Clima'S pour une visibilité 24h/24 du statut des travaux et des rapports d'ingénieurs.</p>
+                <p className="text-gray-700 text-sm sm:text-base">Accès au portail client Clima&apos;S pour une visibilité 24h/24 du statut des travaux et des rapports d&apos;ingénieurs.</p>
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function Home() {
           {/* Copyright */}
           <div className="border-t border-gray-300 mt-6 lg:mt-8 pt-6 lg:pt-8 text-center text-xs sm:text-sm text-gray-600">
             <p className="leading-relaxed">
-              © Clima'S Air Conditioning Limited |
+              © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               <Link href="/cookie-policy" className="hover:text-[#1e496f] mx-1">Politique des cookies</Link> |
               <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d'utilisation</Link> |

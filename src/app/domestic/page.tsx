@@ -56,7 +56,7 @@ export default function Domestic() {
               Nos services domestiques
             </h2>
             <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto">
-              De l'installation à la maintenance, nous vous accompagnons pour un confort optimal dans votre domicile
+              De l&apos;installation à la maintenance, nous vous accompagnons pour un confort optimal dans votre domicile
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Domestic() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-[#1e496f] mb-6">
-                Notre processus d'installation
+                Notre processus d&apos;installation
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -128,7 +128,7 @@ export default function Domestic() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-[#1e496f] mb-2">Devis détaillé</h3>
-                    <p className="text-gray-700">Proposition personnalisée avec prix transparent et délais d'installation.</p>
+                    <p className="text-gray-700">Proposition personnalisée avec prix transparent et délais d&apos;installation.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -146,7 +146,7 @@ export default function Domestic() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-[#1e496f] mb-2">Mise en service</h3>
-                    <p className="text-gray-700">Test et réglage du système avec formation à l'utilisation.</p>
+                    <p className="text-gray-700">Test et réglage du système avec formation à l&apos;utilisation.</p>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function Domestic() {
             <div className="relative">
               <Image
                 src="https://ext.same-assets.com/3359485804/282902617.jpeg"
-                alt="Processus d'installation climatisation"
+                alt="Processus d&apos;installation climatisation"
                 width={600}
                 height={400}
                 className="rounded-lg w-full"
@@ -172,7 +172,7 @@ export default function Domestic() {
               Pourquoi choisir la climatisation domestique ?
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Découvrez tous les avantages d'un système de climatisation pour votre domicile
+              Découvrez tous les avantages d&apos;un système de climatisation pour votre domicile
             </p>
           </div>
 
@@ -188,13 +188,13 @@ export default function Domestic() {
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <p className="text-gray-700">Économies d'énergie grâce aux technologies modernes</p>
+                <p className="text-gray-700">Économies d&apos;énergie grâce aux technologies modernes</p>
               </div>
               <div className="flex items-start space-x-3">
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <p className="text-gray-700">Amélioration de la qualité de l'air intérieur</p>
+                <p className="text-gray-700">Amélioration de la qualité de l&apos;air intérieur</p>
               </div>
               <div className="flex items-start space-x-3">
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -302,7 +302,7 @@ export default function Domestic() {
 
           {/* Photo Album Preview */}
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            {domesticPhotoData.map((category, index) => (
+            {domesticPhotoData.map((category) => (
               <div
                 key={category.name}
                 className="bg-white border border-gray-200 p-6 text-center cursor-pointer hover:border-[#49bce5] transition-colors"
@@ -360,7 +360,7 @@ export default function Domestic() {
             {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="text-2xl font-bold mb-4">
-                <span className="text-red-600">Clima'S</span>
+                <span className="text-red-600">Clima&apos;S</span>
                 <div className="text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
               </div>
             </div>
@@ -394,10 +394,10 @@ export default function Domestic() {
           {/* Copyright */}
           <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-600">
             <p>
-              © Clima'S Air Conditioning Limited |
+              © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               <Link href="/cookie-policy" className="hover:text-[#1e496f] mx-1">Politique des cookies</Link> |
-              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d'utilisation</Link> |
+              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d&apos;utilisation</Link> |
               <Link href="/terms-conditions" className="hover:text-[#1e496f] mx-1">Termes et conditions</Link> |
               <Link href="/sitemap" className="hover:text-[#1e496f] mx-1">Plan du site</Link> |
               Site web par <a href="https://www.design-m.co.uk" className="hover:text-[#1e496f]">Design M</a>

@@ -83,7 +83,7 @@ export default function Commercial() {
               </div>
               <h3 className="text-xl font-semibold text-[#1e496f] mb-4">Ventilation</h3>
               <p className="text-gray-700">
-                Systèmes de ventilation et traitement d'air pour garantir la qualité de l'air intérieur.
+                Systèmes de ventilation et traitement d&apos;air pour garantir la qualité de l&apos;air intérieur.
               </p>
             </div>
 
@@ -108,7 +108,7 @@ export default function Commercial() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-[#1e496f] mb-2">Étude technique approfondie</h3>
-                    <p className="text-gray-700">Analyse des besoins, contraintes techniques et réglementaires spécifiques à votre secteur d'activité.</p>
+                    <p className="text-gray-700">Analyse des besoins, contraintes techniques et réglementaires spécifiques à votre secteur d&apos;activité.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -119,7 +119,7 @@ export default function Commercial() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-[#1e496f] mb-2">Planification et coordination</h3>
-                    <p className="text-gray-700">Gestion des délais, coordination avec les autres corps de métier et respect des contraintes d'exploitation.</p>
+                    <p className="text-gray-700">Gestion des délais, coordination avec les autres corps de métier et respect des contraintes d&apos;exploitation.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -130,7 +130,7 @@ export default function Commercial() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-[#1e496f] mb-2">Installation sans interruption</h3>
-                    <p className="text-gray-700">Réalisation des travaux en respectant vos contraintes d'exploitation et horaires d'ouverture.</p>
+                    <p className="text-gray-700">Réalisation des travaux en respectant vos contraintes d&apos;exploitation et horaires d&apos;ouverture.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -164,10 +164,10 @@ export default function Commercial() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#1e496f] mb-6">
-              Secteurs d'activité
+              Secteurs d&apos;activité
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Nos solutions s'adaptent aux besoins spécifiques de chaque secteur professionnel
+              Nos solutions s&apos;adaptent aux besoins spécifiques de chaque secteur professionnel
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function Commercial() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-[#1e496f] mb-3">Sport & Loisirs</h3>
-              <p className="text-gray-700 text-sm">Salles de sport, piscines et centres de loisirs avec gestion de l'humidité.</p>
+              <p className="text-gray-700 text-sm">Salles de sport, piscines et centres de loisirs avec gestion de l&apos;humidité.</p>
             </div>
 
             <div className="bg-[#eff4f5] rounded-lg p-6">
@@ -248,7 +248,7 @@ export default function Commercial() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-white">
               <h3 className="text-xl font-semibold mb-4">RT 2012 / RE 2020</h3>
               <p className="mb-4">Conformité aux réglementations thermiques en vigueur pour tous vos bâtiments.</p>
@@ -269,24 +269,9 @@ export default function Commercial() {
               </ul>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-white">
-              <h3 className="text-xl font-semibold mb-4">Qualibat</h3>
-              <p className="mb-4">Certification Qualibat pour la qualité de nos interventions.</p>
-              <ul className="space-y-2 text-sm">
-                <li>• Assurance qualité</li>
-                <li>• Formation continue</li>
-                <li>• Suivi client</li>
-              </ul>
-            </div>
+            
           </div>
 
-          <div className="text-center mt-12">
-            <Link href="/contact">
-              <Button className="bg-white hover:bg-gray-100 text-[#1e496f] px-8 py-3 text-lg">
-                CONSULTER NOS CERTIFICATIONS
-              </Button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -308,13 +293,13 @@ export default function Commercial() {
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <p className="text-gray-700">Maintenance préventive programmée selon vos contraintes d'exploitation</p>
+                <p className="text-gray-700">Maintenance préventive programmée selon vos contraintes d&apos;exploitation</p>
               </div>
               <div className="flex items-start space-x-3">
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <p className="text-gray-700">Intervention d'urgence 24h/24 pour les pannes critiques</p>
+                <p className="text-gray-700">Intervention d&apos;urgence 24h/24 pour les pannes critiques</p>
               </div>
               <div className="flex items-start space-x-3">
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -326,7 +311,7 @@ export default function Commercial() {
                 <svg className="w-6 h-6 text-green-600 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <p className="text-gray-700">Optimisation énergétique et conseils d'amélioration continue</p>
+                <p className="text-gray-700">Optimisation énergétique et conseils d&apos;amélioration continue</p>
               </div>
             </div>
 
@@ -374,7 +359,7 @@ export default function Commercial() {
 
           {/* Photo Album Preview */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {commercialPhotoData.map((category, index) => (
+            {commercialPhotoData.map((category) => (
               <div
                 key={category.name}
                 className="bg-white border border-gray-200 p-6 text-center cursor-pointer hover:border-[#49bce5] transition-colors"
@@ -432,7 +417,7 @@ export default function Commercial() {
             {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="text-2xl font-bold mb-4">
-                <span className="text-red-600">Clima'S</span>
+                <span className="text-red-600">Clima&apos;S</span>
                 <div className="text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
               </div>
             </div>
@@ -466,10 +451,10 @@ export default function Commercial() {
           {/* Copyright */}
           <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-600">
             <p>
-              © Clima'S Air Conditioning Limited |
+              © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               <Link href="/cookie-policy" className="hover:text-[#1e496f] mx-1">Politique des cookies</Link> |
-              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d'utilisation</Link> |
+              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d&apos;utilisation</Link> |
               <Link href="/terms-conditions" className="hover:text-[#1e496f] mx-1">Termes et conditions</Link> |
               <Link href="/sitemap" className="hover:text-[#1e496f] mx-1">Plan du site</Link> |
               Site web par <a href="https://www.design-m.co.uk" className="hover:text-[#1e496f]">Design M</a>

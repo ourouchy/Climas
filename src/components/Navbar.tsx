@@ -29,7 +29,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="text-xl sm:text-2xl font-bold">
-              <span className="text-red-600">Clima'S</span>
+              <span className="text-red-600">Clima&apos;S</span>
               <div className="text-xs sm:text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
             </div>
           </Link>
