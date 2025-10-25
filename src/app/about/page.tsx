@@ -14,7 +14,7 @@ export default function About() {
               À propos de nous
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-              Clima'S, votre spécialiste climatisation dans le Var depuis plus de 20 ans
+              Clima&apos;S, votre spécialiste climatisation dans le Var depuis plus de 20 ans
             </p>
           </div>
         </section>
@@ -27,7 +27,7 @@ export default function About() {
             {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="text-2xl font-bold mb-4">
-                <span className="text-red-600">Clima'S</span>
+                <span className="text-red-600">Clima&apos;S</span>
                 <div className="text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function About() {
 
             {/* Reviews */}
             <div>
-              <h4 className="font-semibold text-gray-700 mb-4">Plus d'avis et photos sur :</h4>
+              <h4 className="font-semibold text-gray-700 mb-4">Plus d&apos;avis et photos sur :</h4>
               <p className="text-gray-600">Checkatrade</p>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function About() {
           {/* Copyright */}
           <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-600">
             <p>
-              © Clima'S Air Conditioning Limited |
+              © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               Site web par Design M
             </p>

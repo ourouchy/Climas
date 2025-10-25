@@ -154,7 +154,7 @@ export default function Home() {
             <div className="space-y-4 lg:space-y-6">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#49bce5] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700 text-sm sm:text-base">20 ans d'expérience dans l'industrie.</p>
+                <p className="text-gray-700 text-sm sm:text-base">20 ans d&apos;expérience dans l&apos;industrie.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#49bce5] rounded-full mt-2 flex-shrink-0"></div>
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#49bce5] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700 text-sm sm:text-base">Nous sommes motivés par notre réputation et c'est pourquoi près de 99% de nos clients nous recommanderaient à d'autres.</p>
+                <p className="text-gray-700 text-sm sm:text-base">Nous sommes motivés par notre réputation et c&apos;est pourquoi près de 99% de nos clients nous recommanderaient à d&apos;autres.</p>
               </div>
             </div>
 
@@ -237,7 +237,7 @@ export default function Home() {
             {/* Logo */}
             <div className="text-center sm:text-left lg:col-span-1">
               <div className="text-xl sm:text-2xl font-bold mb-4">
-                <span className="text-red-600">Clima'S</span>
+                <span className="text-red-600">Clima&apos;S</span>
                 <div className="text-xs sm:text-sm text-[#1e496f] font-normal">Climatisation & Chauffage</div>
               </div>
             </div>
@@ -274,7 +274,7 @@ export default function Home() {
               © Clima&apos;S Air Conditioning Limited |
               <Link href="/privacy-policy" className="hover:text-[#1e496f] mx-1">Politique de confidentialité</Link> |
               <Link href="/cookie-policy" className="hover:text-[#1e496f] mx-1">Politique des cookies</Link> |
-              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d'utilisation</Link> |
+              <Link href="/terms-of-use" className="hover:text-[#1e496f] mx-1">Conditions d&apos;utilisation</Link> |
               <Link href="/terms-conditions" className="hover:text-[#1e496f] mx-1">Termes et conditions</Link> |
               <Link href="/sitemap" className="hover:text-[#1e496f] mx-1">Plan du site</Link> |
               Site web par <a href="https://www.design-m.co.uk" className="hover:text-[#1e496f]">Design M</a>
