@@ -7,16 +7,16 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/2092674471.jpeg",
     photos: [
       {
-        id: "van-1",
         src: "https://ext.same-assets.com/3359485804/2092674471.jpeg",
         alt: "Clima'S van parked outside company building",
-        title: "Company Vehicle"
+        width: 400,
+        height: 300
       },
       {
-        id: "van-2", 
         src: "https://ext.same-assets.com/3359485804/2092674471.jpeg",
         alt: "Clima'S branded van with company details",
-        title: "Service Vehicle"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -26,16 +26,16 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "domestic-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Domestic air conditioning installation",
-        title: "Residential Installation"
+        width: 400,
+        height: 300
       },
       {
-        id: "domestic-2",
         src: "https://ext.same-assets.com/3359485804/3142369264.jpeg",
         alt: "Home air conditioning unit",
-        title: "Domestic Unit"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -45,16 +45,16 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
       {
-        id: "commercial-1",
         src: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
         alt: "Commercial air conditioning installation",
-        title: "Office Installation"
+        width: 400,
+        height: 300
       },
       {
-        id: "commercial-2",
         src: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
         alt: "Commercial HVAC system",
-        title: "Business HVAC"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -64,16 +64,16 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "ducting-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Ventilation ductwork installation",
-        title: "Ductwork System"
+        width: 400,
+        height: 300
       },
       {
-        id: "ducting-2",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "HVAC ducting work",
-        title: "Ventilation Installation"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -83,10 +83,10 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "koolduct-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Koolduct specialized ducting",
-        title: "Koolduct System"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -96,10 +96,10 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "r32-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "R32 refrigerant case study project",
-        title: "R32 Refrigerant Project"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -109,10 +109,10 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "condensation-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Condensation control solution",
-        title: "Moisture Control"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -122,10 +122,10 @@ export const samplePhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "maintenance-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Air conditioning maintenance service",
-        title: "Maintenance Work"
+        width: 400,
+        height: 300
       }
     ]
   }
@@ -139,10 +139,10 @@ export const domesticPhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/3142369264.jpeg",
     photos: [
       {
-        id: "res-1",
         src: "https://ext.same-assets.com/3359485804/3142369264.jpeg",
         alt: "Home air conditioning unit",
-        title: "Domestic Unit Installation"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -152,10 +152,10 @@ export const domesticPhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
       {
-        id: "heating-1",
         src: "https://ext.same-assets.com/3359485804/282902617.jpeg",
         alt: "Home heating system",
-        title: "Heating Installation"
+        width: 400,
+        height: 300
       }
     ]
   }
@@ -168,10 +168,10 @@ export const commercialPhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
       {
-        id: "office-1",
         src: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
         alt: "Office air conditioning system",
-        title: "Office HVAC"
+        width: 400,
+        height: 300
       }
     ]
   },
@@ -181,10 +181,10 @@ export const commercialPhotoData: PhotoCategory[] = [
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
       {
-        id: "retail-1",
         src: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
         alt: "Retail space air conditioning",
-        title: "Retail HVAC"
+        width: 400,
+        height: 300
       }
     ]
   }
