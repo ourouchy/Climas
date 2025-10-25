@@ -2,7 +2,6 @@ import { PhotoCategory } from "@/components/PhotoAlbum";
 
 export const samplePhotoData: PhotoCategory[] = [
   {
-    id: "technicool",
     name: "Clima'S",
     thumbnail: "https://ext.same-assets.com/3359485804/2092674471.jpeg",
     photos: [
@@ -21,7 +20,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "domestic",
     name: "Domestic Work",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -40,7 +38,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "commercial",
     name: "Commercial",
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
@@ -59,7 +56,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "ducting",
     name: "Ducting",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -78,7 +74,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "koolduct",
     name: "Koolduct",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -91,7 +86,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "r32-case-study",
     name: "R32 Case Study",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -104,7 +98,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "no-condensation",
     name: "No more condensation",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -117,7 +110,6 @@ export const samplePhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "maintenance",
     name: "Maintenance service",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -134,7 +126,6 @@ export const samplePhotoData: PhotoCategory[] = [
 // Different photo sets for different pages
 export const domesticPhotoData: PhotoCategory[] = [
   {
-    id: "residential-installations",
     name: "Residential Installations",
     thumbnail: "https://ext.same-assets.com/3359485804/3142369264.jpeg",
     photos: [
@@ -147,7 +138,6 @@ export const domesticPhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "home-heating",
     name: "Home Heating",
     thumbnail: "https://ext.same-assets.com/3359485804/282902617.jpeg",
     photos: [
@@ -163,7 +153,6 @@ export const domesticPhotoData: PhotoCategory[] = [
 
 export const commercialPhotoData: PhotoCategory[] = [
   {
-    id: "office-systems",
     name: "Office Systems",
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
@@ -176,7 +165,6 @@ export const commercialPhotoData: PhotoCategory[] = [
     ]
   },
   {
-    id: "retail-installations",
     name: "Retail Installations",
     thumbnail: "https://ext.same-assets.com/3359485804/1811531807.jpeg",
     photos: [
